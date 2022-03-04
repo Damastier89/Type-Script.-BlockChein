@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "dist" // Куда будут складываться файлы после компеляции
+  },
+  "include": ["src/**/*"], // include - какие файлы включаются в процесс компеляции
+  "exclude": ["node_modules"] // exclude - исключить файлы и папки из компеляции
+}
+
+
+
